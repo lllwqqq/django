@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e8a4e06-c419-4d96-bd35-e3c39c931c2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0002_auto_20191121_2226.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/autumn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/borland.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/bw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/colorful.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/emacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/friendly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/fruity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/manni.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/murphy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/native.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/pastie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/perldoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/tango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/trac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/vim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/highlights/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/css/pace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test01_blog/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +48,38 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1TuWaoGJYcjHqR8FszbBWCEKOGF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/static/blog/css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/static/blog/css" />
+      <recent name="$PROJECT_DIR$/blog/static/blog/js" />
+      <recent name="$PROJECT_DIR$/templates/blog" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,6 +100,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="test01_blog.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -67,7 +129,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574310527566</updated>
-      <workItem from="1574310531546" duration="1189000" />
+      <workItem from="1574310531546" duration="1417000" />
+      <workItem from="1574343935284" duration="2950000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm test">
       <created>1574310664228</created>
@@ -83,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574310683971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pycharm test">
+      <created>1574315844636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574315844636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,13 +164,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="pycharm test" />
     <option name="LAST_COMMIT_MESSAGE" value="pycharm test" />
   </component>
