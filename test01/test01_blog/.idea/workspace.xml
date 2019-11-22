@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e8a4e06-c419-4d96-bd35-e3c39c931c2f" name="Default Changelist" comment="1.完成从首页跳转到文章详情页渲染&#10;2.完成模板继承">
+    <list default="true" id="7e8a4e06-c419-4d96-bd35-e3c39c931c2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/detail.html" afterDir="false" />
@@ -97,7 +97,7 @@
       <updated>1574310527566</updated>
       <workItem from="1574310531546" duration="1417000" />
       <workItem from="1574343935284" duration="3235000" />
-      <workItem from="1574387831720" duration="3075000" />
+      <workItem from="1574387831720" duration="4923000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm test">
       <created>1574310664228</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574392214772</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.完成文章支持markdown语法&#10;2.完成有无目录判断显示（1.我这里是在前端判断的 2.可以在后端判断，后面优化）">
+      <created>1574418241970</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574418241970</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,18 @@
     <MESSAGE value="pycharm test" />
     <MESSAGE value="1.完成首页首页渲染&#10;2.完成创建时间、修改时间、作者、admin后台文章列表及添加文章字段优化" />
     <MESSAGE value="1.完成从首页跳转到文章详情页渲染&#10;2.完成模板继承" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.完成从首页跳转到文章详情页渲染&#10;2.完成模板继承" />
+    <MESSAGE value="1.完成文章支持markdown语法&#10;2.完成有无目录判断显示（1.我这里是在前端判断的 2.可以在后端判断，后面优化）" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.完成文章支持markdown语法&#10;2.完成有无目录判断显示（1.我这里是在前端判断的 2.可以在后端判断，后面优化）" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/blog/views.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
