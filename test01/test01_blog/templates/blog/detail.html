@@ -85,12 +85,13 @@
                 <aside class="col-md-4">
                     <div class="widget widget-content">
                         <h3 class="widget-title">文章目录</h3>
-{#                        从前端完成文章目录的生成与否#}
+{#                        1.从前端完成文章目录的生成与否#}
 {#                        {% if post.toc %}#}
 {#                            {{ post.toc |safe }}#}
 {#                        {% else %}#}
 {#                            <div>''</div>#}
 {#                        {% endif %}#}
+{#                        2. 后端处理空目录#}
                         {{ post.toc }}
                     </div>
                     <div class="widget widget-recent-posts">
