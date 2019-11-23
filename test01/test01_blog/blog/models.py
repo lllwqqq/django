@@ -12,7 +12,7 @@ class Category(models.Model):
         verbose_name = '分类'
         verbose_name_plural = verbose_name
 
-    name = models.CharField(max_length=100,verbose_name='分类')
+    name = models.CharField(max_length=100, verbose_name='分类')
 
     def __str__(self):
         return self.name
@@ -26,7 +26,7 @@ class Tag(models.Model):
     def __str__(self):
         return self.name
 
-    name = models.CharField(max_length=100, blank=True,verbose_name='标签')
+    name = models.CharField(max_length=100, blank=True, verbose_name='标签')
 
 
 class Post(models.Model):
@@ -35,7 +35,7 @@ class Post(models.Model):
         verbose_name_plural = verbose_name
 
     title = models.CharField(max_length=100, verbose_name='标题')
-    excerpt = models.CharField(max_length=200, verbose_name='摘要',blank=True)
+    excerpt = models.CharField(max_length=200, verbose_name='摘要', blank=True)
     body = models.TextField(verbose_name='正文')
     create_time = models.DateField(default=timezone.now, verbose_name='创建时间')
     modified_time = models.DateField(verbose_name='修改时间')
@@ -57,5 +57,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
     def get_abs_url(self):
-        return reverse('blog:detail',kwargs={'pk':self.pk})
+        return reverse('blog:detail', kwargs={'pk': self.pk})
