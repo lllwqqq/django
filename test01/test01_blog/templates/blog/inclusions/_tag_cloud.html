@@ -3,7 +3,7 @@
                     <ul>
                         {% for tag in tags %}
                         <li>
-                            <a href="#">{{tag}}</a>
+                            <a href="{% url 'blog:tags' pk=tag.pk %}">{{ tag }}</a>
                         </li>
                         {% endfor %}
                     </ul>
