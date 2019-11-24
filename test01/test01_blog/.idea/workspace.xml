@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e8a4e06-c419-4d96-bd35-e3c39c931c2f" name="Default Changelist" comment="" />
+    <list default="true" id="7e8a4e06-c419-4d96-bd35-e3c39c931c2f" name="Default Changelist" comment="1.修改点击文章标题跳转到文章详情页的函数">
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/autumn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/borland.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/bw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/colorful.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/emacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/friendly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/fruity.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/manni.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/murphy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/native.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/pastie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/perldoc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/tango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/trac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/vim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/highlights/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/css/pace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/full-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/img/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/js/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../django-blog-tutorial-templates-master/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +76,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/blog" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/blog" />
       <recent name="$PROJECT_DIR$/blog/static/blog/css" />
       <recent name="$PROJECT_DIR$/blog/static/blog/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,6 +138,7 @@
       <workItem from="1574387831720" duration="5887000" />
       <workItem from="1574424540812" duration="496000" />
       <workItem from="1574426222237" duration="5870000" />
+      <workItem from="1574579299634" duration="1402000" />
     </task>
     <task id="LOCAL-00001" summary="pycharm test">
       <created>1574310664228</created>
@@ -192,12 +232,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="pycharm test" />
-    <MESSAGE value="1.完成首页首页渲染&#10;2.完成创建时间、修改时间、作者、admin后台文章列表及添加文章字段优化" />
     <MESSAGE value="1.完成从首页跳转到文章详情页渲染&#10;2.完成模板继承" />
     <MESSAGE value="1.完成文章支持markdown语法&#10;2.完成有无目录判断显示（1.我这里是在前端判断的 2.可以在后端判断，后面优化）" />
     <MESSAGE value="1. 完成后端用正则处理空目录" />
     <MESSAGE value="1. 完成自动生成摘要" />
     <MESSAGE value="1. 通过自定义模板标签完成文章列表、日期归档、文章分类、标签云的自动渲染" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 通过自定义模板标签完成文章列表、日期归档、文章分类、标签云的自动渲染" />
+    <MESSAGE value="1.完成首页首页渲染&#10;2.完成创建时间、修改时间、作者、admin后台文章列表及添加文章字段优化" />
+    <MESSAGE value="1.修改点击文章标题跳转到文章详情页的函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修改点击文章标题跳转到文章详情页的函数" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
