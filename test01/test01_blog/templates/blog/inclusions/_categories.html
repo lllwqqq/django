@@ -1,11 +1,10 @@
-
-                    <div class="widget widget-category">
-                        <h3 class="widget-title">分类</h3>
-                        <ul>
-                            {% for category in categories %}
-                            <li>
-                                <a href="{% url 'blog:category' pk=category.pk %}">{{ category }}</a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
+<div class="widget widget-category">
+    <h3 class="widget-title">分类</h3>
+    <ul>
+        {% for category in categories %}
+            <li>
+                <a href="{% url 'blog:category' pk=category.pk %}">{{ category }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

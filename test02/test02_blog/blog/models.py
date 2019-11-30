@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
+from django.urls import reverse
 
 
 # Create your models here.
@@ -40,10 +41,16 @@ class Post(models.Model):
     category = models.ForeignKey(Category, verbose_name='分类', on_delete=models.CASCADE)
     tags = models.ManyToManyField(Tag, verbose_name='标签', blank=True)
 
-    author = models.ForeignKey(User,on_delete=models.CASCADE,verbose_name='作者')
+    author = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='作者')
+
     def __str__(self):
         return self.title
 
     def save(self, *args, **kwargs):
         self.modified_time = timezone.now()
         super().save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return reverse('blog:detail', kwargs={
+            'pk': self.pk
+        })
