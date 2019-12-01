@@ -62,13 +62,28 @@
 </div>
 <div class="copyrights">Collect from <a href="http://www.cssmoban.com/">网页模板</a></div>
 <div class="copyrights">Modified by <a href="http://zmrenwu.com/">追梦人物的博客</a></div>
+<div class="content-body">
+    <div class="container">
+        <div class="row">
+            {% block main %}
 
-{% block main %}
+            {% endblock main %}
+            {% block toc %}
 
-{% endblock main%}
-{% block toc %}
+            {% endblock toc %}
+            <aside class="col-md-4">
 
-{% endblock toc%}
+                {% show_recent_posts %}
+                {% show_archives %}
+                {% show_categories %}
+                {% show_tags %}
+                <div class="rss">
+                    <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
 <footer id="site-footer">
     <div class="container">
         <div class="row">

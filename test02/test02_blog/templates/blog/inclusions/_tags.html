@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="widget widget-tag-cloud">
+    <h3 class="widget-title">标签云</h3>
+    <ul>
+        {% for tag in tags %}
+            <li>
+                <a href="{% url 'blog:tags' pk=tag.pk %}">{{ tag }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
