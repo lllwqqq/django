@@ -57,7 +57,7 @@
                         </div>
                     </header>
                     <div class="entry-content clearfix">
-   {{ post.body }}
+   {{ post.body|safe }}
                     </div>
                 </article>
                 <section class="comment-area" id="comment-area">
@@ -120,9 +120,15 @@
                 </section>
             </main>
                          {% endblock %}
+{% block toc %}
+{#    <aside class="col-md-4">#}
+                <div class="widget widget-content">
+                    <h3 class="widget-title">文章目录</h3>
+                   {{ post.toc|safe}}
+                </div>
+{#            </aside>#}
+{% endblock %}
 
-{#            <aside class="col-md-4">#}
-{#                <div class="widget widget-content">#}
 {#                    <h3 class="widget-title">文章目录</h3>#}
 {#                    <ul>#}
 {#                        <li>#}
