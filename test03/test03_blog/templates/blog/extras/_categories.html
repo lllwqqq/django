@@ -3,7 +3,7 @@
                     <ul>
                         {% for category in categories %}
                         <li>
-                            <a href="#">{{category.name}} <span class="post-count"></span></a>
+                            <a href="{% url 'blog:categories' pk=category.pk %}">{{category.name}} <span class="post-count"></span></a>
                         </li>
                         {% empty %}
                         <div>暂无分类</div>
