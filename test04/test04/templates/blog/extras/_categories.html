@@ -1,0 +1,13 @@
+<div class="widget widget-category">
+                    <h3 class="widget-title">分类</h3>
+                    <ul>
+                        {% for cate in categories %}
+                        <li>
+                            <a href="#">{{ cate.name }}<span class="post-count">(13)</span></a>
+                        </li>
+                        {% empty %}
+                            <div>暂无分类</div>
+                        {% endfor %}
+
+                    </ul>
+                </div>
