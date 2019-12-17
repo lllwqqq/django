@@ -3,7 +3,8 @@
                     <ul>
                         {% for post in post_list %}
                         <li>
-                            <a href="#">{{ post.year }} 年 {{post.month}} 月</a>
+                            <a href="{% url 'blog:archive' post.year post.month %}">{{ post.year }} 年 {{ post.month }}
+                                月</a>
                         </li>
                         {% empty %}
                             <div>暂无归档</div>
