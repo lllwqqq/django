@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'blogproject.wsgi.application'
 pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'myblog',
         'USER': 'root',
         'PASSWORD': '123kkk',
